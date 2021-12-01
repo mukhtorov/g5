@@ -3,7 +3,7 @@ import { Container, Info, Navbar, Wrapper } from './style';
 import { card } from '../../mock/card';
 
 export const Mahsulotlar = (props) => {
-  const [products, setProducts] = useState(Object.entries(card));
+  const [products] = useState(Object.entries(card));
   const [isActive, setIsActive] = useState('Yangi');
   let name = 'yangi';
   console.log(card[name]);
