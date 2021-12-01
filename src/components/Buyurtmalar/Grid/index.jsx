@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Container, Info, Navbar, Wrapper } from './style';
+import { Container, Info, Wrapper } from './style';
 import { card } from '../../../mock/card';
 
 export const Mahsulotlar = ({ isActive }) => {
-  const [products, setProducts] = useState(Object.entries(card));
+  const [products] = useState(Object.entries(card));
   let name = 'yangi';
   console.log(card[name]);
   return (

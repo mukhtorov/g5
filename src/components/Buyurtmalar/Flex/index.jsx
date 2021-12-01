@@ -5,7 +5,7 @@ import { Container, Info, Wrapper } from './style';
 import { card } from '../../../mock/card';
 
 export const Buyurtmalar = (props) => {
-  const [products, setProducts] = useState(Object.entries(card));
+  const [products] = useState(Object.entries(card));
   let name = 'yangi';
   console.log(card[name]);
   return (
